@@ -1,0 +1,22 @@
+# Node modules
+node_modules
+
+# Build output
+dist
+build
+coverage
+
+# Environment files
+.env
+.env.*
+
+# Dependency lock files (optional, since they’re auto-generated)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Prisma
+prisma/migrations
+
+# Other ignores
+*.log
